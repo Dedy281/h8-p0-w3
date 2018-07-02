@@ -3,7 +3,7 @@ function palindrome(kata) {
     for(var i = (kata.length-1); i >=0 ; i--){
         print = print + kata[i];
     }
-    if ((print) == kata){
+    if ((print) === kata){
         return true;
     } 
     else {
